@@ -6,11 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-import static android.provider.AlarmClock.EXTRA_MESSAGE;
-
 public class MainActivity extends AppCompatActivity
 {
-
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -27,4 +24,6 @@ public class MainActivity extends AppCompatActivity
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
+
+    public final static String EXTRA_MESSAGE = "net.schultzoss_montpellier.melvin.firstappandroid.MESSAGE";
 }
