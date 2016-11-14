@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">FirstAppAndroid</string>
-    <string name="button_send">Envoyer</string>
+    <string name="app_name" translatable="false">FirstAppAndroid</string>
     <string name="edit_message">Entrer un message</string>
+    <string name="button_send">Envoyer</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="login">Connexion</string>
+    <string name="redirecting">Redirection</string>
+    <string name="wrong_login">Nom d\'utilisateur ou mot de passe invalides</string>
 </resources>
